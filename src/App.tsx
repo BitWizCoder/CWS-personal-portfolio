@@ -1,9 +1,11 @@
+import Introduction from "./components/Introduction";
+import SidebarAbout from "./components/SidebarAbout";
+
 function App() {
   return (
     <div>
-      <h1 className="text-center mt-14 text-4xl font-semibold">
-        Hello World!
-      </h1>
+      <SidebarAbout />
+      {/* <Introduction /> */}
     </div>
   );
 }
