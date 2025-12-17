@@ -3,9 +3,9 @@ import SidebarAbout from "./components/SidebarAbout";
 
 function App() {
   return (
-    <div>
-      <SidebarAbout />
-      {/* <Introduction /> */}
+    <div className="flex justify-center mt-24">
+      {/* <SidebarAbout /> */}
+      <Introduction />
     </div>
   );
 }
