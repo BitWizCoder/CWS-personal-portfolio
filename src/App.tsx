@@ -1,11 +1,11 @@
 import Introduction from "./components/Introduction";
-import SidebarAbout from "./components/SidebarAbout";
+import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div className="flex justify-center mt-24">
-      {/* <SidebarAbout /> */}
+    <div className="flex justify-center flex-col mt-24 ml-24">
       <Introduction />
+      <Stats />
     </div>
   );
 }
