@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Introduction from "./components/Introduction";
 import Projects from "./components/Projects";
 import Stats from "./components/Stats";
@@ -8,6 +9,7 @@ function App() {
       <Introduction />
       <Stats />
       <Projects />
+      <About />
     </div>
   );
 }
