@@ -7,9 +7,11 @@ export default function SidebarAbout() {
      ml-6"
     >
       <div>
-        <h2>David</h2>
-        <p>Frontend Designer & Developer</p>
-        <img src="" alt="" />
+        <div className="flex justify-between">
+          <h2>David</h2>
+          <p>Frontend Designer & Developer</p>
+        </div>
+        <img src="./avatar.jpg" alt="Avatar" />
         <div>
           <p>Specialization:</p>
           <h2>UI/UX designer and frontend developer</h2>
