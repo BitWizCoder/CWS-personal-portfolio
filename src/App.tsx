@@ -10,9 +10,9 @@ import Tools from "./components/Tools";
 
 function App() {
   return (
-    <div className="flex justify-center mt-24 ml-24">
+    <div className="flex">
       <SidebarAbout />
-      <div>
+      <div className="max-w-7xl pl-[600px] mt-22">
         <Introduction />
         <Stats />
         <Projects />

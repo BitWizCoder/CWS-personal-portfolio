@@ -3,15 +3,15 @@ import { Button } from "./ui/button";
 export default function SidebarAbout() {
   return (
     <div
-      className="bg-neutral-900 border border-neutral-700 max-w-md p-12 rounded-sm mt-6
-     ml-6"
+      className="bg-neutral-900 border border-neutral-700 max-w-sm p-6 rounded-lg mt-6
+     ml-6 h-[600px]"
     >
       <div>
-        <div className="flex justify-between">
-          <h2>David</h2>
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="font-bold text-2xl">David</h2>
           <p>Frontend Designer & Developer</p>
         </div>
-        <img src="./avatar.jpg" alt="Avatar" />
+        <img src="./avatar.jpg" alt="Avatar" className="rounded-md" />
         <div>
           <p>Specialization:</p>
           <h2>UI/UX designer and frontend developer</h2>
