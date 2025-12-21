@@ -5,7 +5,7 @@ function Projects() {
     <div className="mt-28">
       <SectionIntro heading="My featured projects" subHeading="Projects" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-2 gap-4">
         <div className="overflow-hidden rounded-md">
           <img
             src="./images/project-ph-1.jpeg"
